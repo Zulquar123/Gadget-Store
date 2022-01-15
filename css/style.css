@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Poppins&display=swap');
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #091353;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #F0A500;
+    width: 950px;
+    padding: 0px 20px;
+}
+.color{
+    color: #145DA0;
+}
+   /* Nav Bar */
+.navbar , .ul{
+    display: flex;
+    align-items: center;
+    line-height: 0px;
+}
+
+.title-1{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.ul{
+    margin-left: 240px;
+}
+.ul li {
+    list-style: none;
+    
+}
+.ul li a{
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.ul li a:hover{
+    background-color: #FFC900;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Nav Bar */
+
+/* header start */
+.header{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.header-1>p{
+    text-align: justify;
+}
+h1{
+   color: #0C1E7F ; 
+}
+.link{
+    background-color: #145DA0;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.link>a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header-2{
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 300px;
+}
+.header-2 > img{
+    
+    width: 90%;
+}
+.header-2:hover{
+    transform: rotate(360deg);
+    transition: 3s ease-in;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+   
+   
+}
+.brand>a{
+    padding: 0px 23px;
+}
+
+      /* collection Items */
+
+.title-2{
+    text-align: center;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.item:hover{
+transform: scale(1.5);
+transition: 2s ease-out;
+}
+.item-info{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.see-more{
+    color: #073c6d;
+}
+.item{
+   
+    background-color: #F0D290;
+    border-radius: 10px;
+}
+
+
+
+.fa-star.filled{
+    color:#e7b427;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+footer p,h2{
+    text-align: center;
+    color: white;
+    margin:  10px;
+}
+.icon{
+    text-align: center;
+    
+}
+.icon a{
+    padding: 10px;
+    color: wheat;
+}
+.foot{
+    background-color: black;
+    padding-bottom: 20px;
+}
