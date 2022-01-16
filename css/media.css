@@ -1,2 +1,9 @@
-
-
+@media only screen and (max-width: 688px) {
+    .container{
+            background-color: #F0A500;
+            width: 100%;
+            padding: 0px 5px;
+        
+    }
+   
+    
